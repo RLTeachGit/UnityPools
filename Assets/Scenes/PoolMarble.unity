@@ -406,7 +406,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731043565}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36031db89f12a864a92fb308987dacbe, type: 3}
   m_Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_Extent: {x: 10, y: 2.5, z: 10}
   HideInGame: 1
   Colour: {r: 1, g: 0, b: 0, a: 0.1}
-  SpawnTime: 0.1
+  SpawnTime: 0.01
   SpawnItem: {fileID: 4694415132201395934, guid: bf7de96338b0f3f4289e77e5dd5ad44c,
     type: 3}
   SpawnPool: {fileID: 257805377}
@@ -455,6 +455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a98e7bfb72943549b21c335be8b974a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Colour: {r: 0, g: 1, b: 0.023826122, a: 0.3137255}
+  CareRadius: 3
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,8 +533,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.1794315, y: 0.68089336, z: -0.17771685, w: -0.6874629}
-  m_LocalPosition: {x: 21.44445, y: 12.013129, z: -0.20592031}
+  m_LocalRotation: {x: -0.3388942, y: 0.62177074, z: -0.34073782, w: -0.6184252}
+  m_LocalPosition: {x: 5.4201603, y: 7.277297, z: 0.077029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
